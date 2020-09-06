@@ -5,4 +5,18 @@ date:   2020-09-06 00:00:00 +0000
 categories: aws
 ---
 
-WIP
+Some tools I learned about from a consultant I've been working with who specializes in AWS.
+
+# IAM Policy Simulator
+
+It can be difficult to get IAM policies configured correctly. The [IAM Policy Simulator](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html) lets you simulate different scenarios and gives immediate feedback about whether access is allowed or denied.
+
+# Firefox Containers
+
+Sometimes I have multiple AWS console tabs open and need to switch back and forth between different AWS accounts. When switching to a new account, AWS forces you to reload all open tabs and you get redirected from whichever service you had open.
+
+The [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) browser extension lets you isolate sessions with Containers. You can create one Container per AWS account and have multiple tabs open across multiple Containers.
+
+# EC2 Instance Comparison site
+
+Someone else thought it was a bit difficult to use AWS' documentation to compare EC2 instances so they automated scraping the data together onto one page: [EC2Instances.info](https://www.ec2instances.info/). It also has RDS instance info.
