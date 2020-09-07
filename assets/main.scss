@@ -5,10 +5,6 @@ $base-font-family:      'Fira Code', monospace;
 $text-color:            #E9EAEC !default;
 $background-color:      rgb(16, 13, 37);
 $brand-color:           #D3BBDD !default;
-$code-color:            #E1C340;
-code {
-    background-color: $code-color !important;
-    color: #666;
-    border-color: darken($code-color, 5%) !important;
-}
+$code-background-color: #E1C340;
+$code-color:            #777;
 @import "minima";
