@@ -1,5 +1,3 @@
-# Subnets Part 2
-
 Some more precise terminology, relative to yesterday:
 
 Parts of an IPv4 address are referred to as **octets**, and there are 4 of them. I suppose they're called octets because they're represented by 8 bits.

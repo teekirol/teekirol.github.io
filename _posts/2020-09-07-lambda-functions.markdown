@@ -1,5 +1,3 @@
-# Lambdas
-
 Within the context of Serverless, there are multiple ways to give Lambda functions permissions to access other AWS resources:
 
 1. By default, Lambdas assume a role that has various CloudWatch permissions. You can add additional permissions to that role by adding IAM role statements to `serverless.yml`. Doing this will update the default role by merging those additional permissions with the pre-existing ones.

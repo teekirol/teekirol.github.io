@@ -1,5 +1,3 @@
-# Subnets at a high level
-
 A network can be divided into subnets, which may be isolated from each other. They also allow routers to route traffic more quickly.
 
 # IPv4 addresses
